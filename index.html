@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Start Hacking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1b222a">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!--Import fonts-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet" />
+  <!-- Import styles -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body onload="onPageLoad()">
+  <div class="container main-content">
+    <div class="row">
+      <div class="col s12 m9">
+        <!-- Links -->
+        <div class="row">
+          <div class="col s6 m3">
+            <a href="https://pwnable.xyz/" class="card">
+              <div class="card-image">
+                <img src="img/pwnablexyz.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">pwnable.xyz</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://www.hackthebox.eu/" class="card">
+              <div class="card-image">
+                <img src="img/htb.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">HTB</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="http://hackingdojo.com/" class="card">
+              <div class="card-image">
+                <img src="img/hackingdojo.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Hacking Dojo</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://pentesterlab.com/" class="card">
+              <div class="card-image">
+                <img src="img/pentesterlab.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Pentester Lab</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="http://www.wechall.net/" class="card">
+              <div class="card-image">
+                <img src="img/wechall.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">WeChall</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="http://overthewire.org/wargames/" class="card">
+              <div class="card-image">
+                <img src="img/overthewire.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">OTW</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://picoctf.com/" class="card">
+              <div class="card-image">
+                <img src="img/picoctf.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">PicoCTF</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://www.root-me.org/?lang=en" class="card">
+              <div class="card-image">
+                <img src="img/rootme.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Root Me</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://picoctf.com/" class="card">
+              <div class="card-image">
+                <img src="img/pwnablekr.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">pwnable.kr</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://www.nationalcyberleague.org/ncl-stadium" class="card">
+              <div class="card-image">
+                <img src="img/ncl.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">NCL</span>
+              </div>
+            </a>
+          </div>
+          <div class="col s6 m3">
+            <a href="https://lab.pentestit.ru/" class="card">
+              <div class="card-image">
+                <img src="img/pentestit.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title">Pentestit.ru</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="date">
+          <h2 id="clock"></h2>
+          <h3 id="date"></h3>
+        </div>
+
+        <div class="links">
+          <span class="links-title">Utilities</span>
+          <ul class="collection">
+            <a href="https://gchq.github.io/CyberChef/">
+              <li class="collection-item">CyberChef</li>
+            </a>
+            <a href="https://packettotal.com/">
+              <li class="collection-item">PacketTotal</li>
+            </a>
+            <a href="https://virustotal.com/">
+              <li class="collection-item">VirusTotal</li>
+              </a>
+          </ul>
+        </div>
+        <div class="links">
+          <span class="links-title">Crypto</span>
+          <ul class="collection">
+          <a href="https://quipqiup.com/">
+            <li class="collection-item">quipqiup</li>
+          </a>
+          <a href="https://www.dcode.fr/">
+            <li class="collection-item">dcode.fr</li>
+          </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
